@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Apex Towing",
+    "phone": "555-tow-r92",
+    "category": "towing",
+    "city": "Tulsa",
+    "state": "OK"
+  },
+  "design": {
+    "preset": {
+      "id": "towing-red-charge",
+      "categoryGroup": "towing",
+      "name": "Red Charge",
+      "recipeFile": "towing/red-charge.astro",
+      "colors": {
+        "primary": "#B91C1C",
+        "primaryDark": "#7F1D1D",
+        "primaryLight": "#eec6c6",
+        "secondary": "#a71919",
+        "accent": "#FBBF24",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#B91C1C",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "towing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Tulsa's Fastest Towing Response",
+      "heroSubline": "When your vehicle won't move, we will. Serving Tulsa 24/7 with reliable towing. No wait, no hassle – just fast help when you need it most.",
+      "aboutTitle": "Why Choose Apex Towing?",
+      "aboutText": [
+        "Founded in 2012, Apex Towing has been Tulsa's trusted towing partner through ice storms, tornadoes, and everyday breakdowns. We know Oklahoma roads like the back of our hand.",
+        "Our team prioritizes speed, safety, and transparency. No hidden fees, no unnecessary delays – just straightforward service from professionals who care.",
+        "We're proud to support Tulsa by sponsoring local Little League teams and volunteering with roadside cleanup initiatives along Route 66."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Availability",
+          "description": "Breakdowns don't keep business hours. Neither do we – our fleet is always ready."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "From Cherry Street's tight corners to Broken Arrow's suburban lanes, we know Tulsa's roads."
+        },
+        {
+          "title": "Storm-Ready",
+          "description": "When ice coats the IDL or tornado debris blocks streets, our heavy-duty trucks respond."
+        },
+        {
+          "title": "Fair Pricing",
+          "description": "Upfront quotes with no surprise fees – we treat your wallet as carefully as your vehicle."
+        }
+      ],
+      "ctaHeadline": "Need a Tow Right Now?",
+      "ctaSubline": "Call 555-TOW-R92 for immediate dispatch. Average response time: 28 minutes in Tulsa metro."
+    },
+    "services": [
+      {
+        "slug": "emergency-towing",
+        "name": "Emergency Towing",
+        "shortDescription": "Immediate response for accidents and breakdowns across Tulsa.",
+        "description": "When your car quits on the Broken Arrow Expressway or you're in a fender bender near the Blue Dome District, our emergency towing gets you moving fast.\n\nOur GPS-equipped trucks deploy within minutes, day or night. We handle everything from compact cars to full-size pickups with equal care. Tulsa's sudden hailstorms and icy winter roads mean breakdowns happen when you least expect them – that's why we keep our fleet ready 365 days a year.\n\nEvery driver carries Tulsa-specific gear: wheel lifts for narrow Midtown streets, extra chains for winter recoveries, and protective mats for Art Deco district brick roads.",
+        "process": [
+          "Step 1: Call our dispatch center – we'll pinpoint your location using Tulsa landmarks",
+          "Step 2: Receive ETA and upfront quote – no guessing about costs",
+          "Step 3: Truck arrives with proper equipment for your vehicle type",
+          "Step 4: Safe transport to your chosen destination or our secure lot"
+        ],
+        "benefits": [
+          "Average 22-minute response time in city limits",
+          "Tulsa-trained drivers know alternate routes during events at BOK Center",
+          "Specialized equipment for Oklahoma's variable road conditions",
+          "Direct billing to most insurance providers"
+        ],
+        "faq": [
+          {
+            "question": "What if I'm stranded in a flood-prone area like the Arkansas River bottoms?",
+            "answer": "Our high-clearance trucks handle shallow water rescues safely. We monitor flood gauges during severe weather."
+          },
+          {
+            "question": "Do you tow motorcycles from Tulsa bike nights?",
+            "answer": "Yes – we use soft straps and chocks specifically for Harley-Davidson rallies and Bike Week events."
+          }
+        ]
+      },
+      {
+        "slug": "roadside-assistance",
+        "name": "Roadside Assistance",
+        "shortDescription": "On-the-spot help for lockouts, jump starts, and flat tires.",
+        "description": "Locked your keys in the car at Woodward Park? Battery dead after leaving lights on at the Gathering Place? We've got you covered.\n\nOur Tulsa-based roadside assistance vans carry everything needed for quick fixes: heavy-duty jump packs for Oklahoma's extreme temperatures, lockout tools that won't damage your door seals, and even spare alternators for common domestic vehicles. Unlike national chains, our technicians live in the communities they serve – they know shortcuts through Maple Ridge and which convenience stores have the best coffee while you wait.\n\nService includes a free safety check of fluids, lights, and tires – crucial before tackling Tulsa's mix of aging neighborhood streets and high-speed turnpikes.",
+        "process": [
+          "Step 1: Describe your issue – we'll match the right technician to your problem",
+          "Step 2: Get real-time ETA via text with technician photo and credentials",
+          "Step 3: On-site diagnosis and transparent pricing before any work begins",
+          "Step 4: Payment options including mobile pay for convenience"
+        ],
+        "benefits": [
+          "Most calls resolved within 45 minutes",
+          "Tulsa-specific knowledge of tricky parking zones",
+          "No extra charge for after-hours service",
+          "Can often prevent costly tow bills"
+        ],
+        "faq": [
+          {
+            "question": "Will you come to my apartment complex in South Tulsa?",
+            "answer": "Yes – our technicians have gate codes for most major apartment communities and know parking policies at Utica Square."
+          },
+          {
+            "question": "What if you can't fix my car on the spot?",
+            "answer": "We'll arrange immediate towing at a discounted rate and help coordinate rideshare or rental options."
+          }
+        ]
+      },
+      {
+        "slug": "heavy-duty-towing",
+        "name": "Heavy Duty Towing",
+        "shortDescription": "Specialized recovery for trucks, RVs, and commercial vehicles.",
+        "description": "When a semi jackknifes on I-44 or your RV won't start at the Tulsa State Fairgrounds, our heavy-duty fleet handles the job.\n\nWe operate the only rotator wrecker in Tulsa County capable of uprighting overturned tractor trailers. Our team trains quarterly with OK Highway Patrol for accident scenarios on the Keystone Expressway. For RV owners, we offer specialized towing that protects slide-outs and delicate plumbing systems – crucial for Tulsa's many retirees traveling to Grand Lake.\n\nThe same summer heat that warps Route 66 pavement also tests vehicle limits. We carry extra coolant and hydraulic fluid to stabilize disabled rigs before transport to local shops like Tulsa Truck Center.",
+        "process": [
+          "Step 1: Dispatch evaluates vehicle weight and accident scene safety",
+          "Step 2: Specialized equipment routes from our central Tulsa yard",
+          "Step 3: On-site stabilization and load securing",
+          "Step 4: Transport with constant weight distribution monitoring"
+        ],
+        "benefits": [
+          "Up to 80-ton capacity for oil field equipment",
+          "DOT-certified drivers for commercial tows",
+          "Direct lines to Tulsa weigh stations",
+          "Oversize load permits included"
+        ],
+        "faq": [
+          {
+            "question": "Can you recover vehicles from Tulsa's frequent flash floods?",
+            "answer": "Our amphibious wrecker handles water recoveries in low-lying areas near the Arkansas River."
+          },
+          {
+            "question": "Do you service the Port of Catoosa?",
+            "answer": "Yes – we're the preferred provider for several barge operators with yard-to-yard transport."
+          }
+        ]
+      },
+      {
+        "slug": "motorcycle-towing",
+        "name": "Motorcycle Towing",
+        "shortDescription": "Specialized transport for bikes with zero-contact loading.",
+        "description": "Your Harley isn't just transportation – it's Tulsa pride. We treat every bike with the care we'd give our own.\n\nUsing air-cushioned wheel chocks and non-abrasive straps, our motorcycle-specific trailers protect your ride from Oklahoma's notorious potholes and expansion joints. Whether you broke down after Bike Night at the Blue Dome or need transport to Thunder Road for service, we've got you covered.\n\nOur drivers complete annual training at Tulsa Community College's motorcycle mechanics program. They understand everything from vintage Indian restorations to the latest touring models – and know all the best coffee stops along Route 66 for break-down stories.",
+        "process": [
+          "Step 1: Describe your bike's make, model, and issue",
+          "Step 2: Choose between our enclosed trailer or open-air transport",
+          "Step 3: Watch our certified techs load your bike using our no-touch policy",
+          "Step 4: Track your bike's movement via real-time GPS updates"
+        ],
+        "benefits": [
+          "$5M cargo insurance on every transport",
+          "Tie-downs designed for Oklahoma's hilly terrain",
+          "Can accommodate trikes and sidecars",
+          "After-hours pickup from Tulsa rallies"
+        ],
+        "faq": [
+          {
+            "question": "Do you transport bikes to Sturgis from Tulsa?",
+            "answer": "Yes – our long-distance team handles multi-state trips with scheduled rest stops."
+          },
+          {
+            "question": "What if my bike won't roll?",
+            "answer": "Our hydraulic lift gate can load non-operational bikes without dragging."
+          }
+        ]
+      },
+      {
+        "slug": "private-property-towing",
+        "name": "Private Property Towing",
+        "shortDescription": "Authorized towing for apartments, businesses, and HOAs.",
+        "description": "Illegally parked cars clogging your Brookside boutique's loading zone? Our private property towing keeps Tulsa's parking spaces fair.\n\nWorking with property managers across Tulsa County, we enforce parking policies with clear signage and documented procedures. Our drivers photograph every vehicle before towing – crucial evidence for Tulsa's strict abandoned vehicle laws. We know the specific regulations for Cherry Street's timed parking and hospital zones near Saint Francis.\n\nFor HOAs in suburban developments like Bixby and Owasso, we offer after-hours patrols to identify unauthorized vehicles without disturbing residents. All impounds go to our secure, camera-monitored lot with 24/7 retrieval options.",
+        "process": [
+          "Step 1: Property owner submits signed authorization",
+          "Step 2: Our team verifies violation and documents with timestamped photos",
+          "Step 3: Safe relocation to our Tulsa impound facility",
+          "Step 4: Online portal for owners to retrieve vehicles"
+        ],
+        "benefits": [
+          "Fully compliant with Tulsa municipal codes",
+          "Real-time violation tracking for property managers",
+          "Can install compliant signage as part of service",
+          "Revenue sharing options for commercial properties"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you remove an abandoned car from my apartment complex?",
+            "answer": "Most vehicles tagged in the morning are towed by afternoon – we follow Tulsa's 72-hour notice rules precisely."
+          },
+          {
+            "question": "Do you handle construction site parking violations?",
+            "answer": "Yes – we work with Tulsa contractors to keep equipment lanes clear using bright orange warning stickers first."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Emergency Towing",
+        "text": "Had a blowout on the BA Expressway during rush hour. Apex had me loaded up before I finished calling my wife. Driver knew a back route to the shop that saved me an hour of traffic. These guys are Tulsa pros.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Janelle K.",
+        "rating": 5,
+        "service": "Roadside Assistance",
+        "text": "Locked my keys in the car at Philbrook Museum after their gala. The tech had my door open in 90 seconds without a scratch. Even gave me tips for avoiding valet lines at future events. Worth every penny.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Roberto S.",
+        "rating": 5,
+        "service": "Heavy Duty Towing",
+        "text": "Our food truck broke down near Cain's Ballroom before a big show. Apex's heavy wrecker got us to the mechanic and back before soundcheck. They understood our refrigeration unit needed priority handling.",
+        "date": "2025-01-17"
+      },
+      {
+        "name": "Darla M.",
+        "rating": 4,
+        "service": "Motorcycle Towing",
+        "text": "My Heritage Softail died at the Route 66 bike rally. The enclosed trailer kept my chrome perfect despite Oklahoma wind. One star off because they wouldn't let me ride in the truck with my baby.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Councilman P. Davis",
+        "rating": 5,
+        "service": "Private Property Towing",
+        "text": "As president of our Midtown HOA, Apex solved our chronic parking problems. Their signage reduced violations by 60% without neighbor complaints. Professional from first meeting to ongoing enforcement.",
+        "date": "2024-10-22"
+      },
+      {
+        "name": "Tyson R.",
+        "rating": 5,
+        "service": "Emergency Towing",
+        "text": "Ice storm took out three cars in our Maple Ridge driveway. Apex cleared them all before the morning commute. Driver salted our walkway while waiting for the last tow – that's Tulsa nice right there.",
+        "date": "2025-01-30"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "24/7 Towing Services in Tulsa, OK | Apex Towing",
+        "description": "Fast, reliable towing across Tulsa County. Emergency response, roadside assistance, and heavy-duty recovery. Call now: 555-TOW-R92."
+      },
+      "about": {
+        "title": "About Apex Towing – Tulsa's Trusted Recovery Experts",
+        "description": "Locally owned Tulsa towing company serving the community since 2012. Storm response specialists with deep Oklahoma road knowledge."
+      },
+      "services": {
+        "title": "Tulsa Towing Services | Emergency & Specialty Recovery",
+        "description": "Complete towing solutions for Tulsa residents and businesses. Motorcycle, heavy-duty, and private property towing available 24/7."
+      },
+      "contact": {
+        "title": "Contact Apex Towing – Tulsa's Fastest Response",
+        "description": "Need immediate towing in Tulsa? Call 555-TOW-R92 for 24/7 dispatch. Average response time under 30 minutes."
+      },
+      "reviews": {
+        "title": "Tulsa Towing Reviews | Apex Customer Experiences",
+        "description": "See why Tulsa residents trust Apex Towing for emergency recovery and roadside assistance. Real customer stories."
+      },
+      "service-areas": {
+        "title": "Towing Service Areas | Tulsa & Surrounding Communities",
+        "description": "Apex Towing covers all Tulsa neighborhoods plus Broken Arrow, Bixby, Owasso, and other OK communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Tulsa",
+        "slug": "tulsa-ok",
+        "state": "OK",
+        "content": "Apex Towing is proud to serve the Tulsa community with reliable and professional towing services. Whether you're stranded on the side of the road or need assistance with vehicle recovery, our team is available 24/7 to help. We understand the busy streets of Tulsa, from the downtown area to the suburbs, and provide prompt service to get you back on the road quickly. Our experienced drivers are familiar with all major highways, including I-44 and US-75, ensuring safe and efficient towing.",
+        "localContext": "Tulsa is Oklahoma's second-largest city, known for its vibrant arts scene and historic Route 66 landmarks.",
+        "nearbyAreas": [
+          "Broken Arrow",
+          "Jenks",
+          "Sand Springs"
+        ]
+      },
+      {
+        "city": "Broken Arrow",
+        "slug": "broken-arrow-ok",
+        "state": "OK",
+        "content": "Apex Towing offers fast and dependable towing services in Broken Arrow, ensuring residents and visitors receive the help they need when vehicle troubles arise. From jump-starts to flat tire changes, our team is equipped to handle a variety of roadside emergencies. We also provide long-distance towing for those needing transport to repair shops or other destinations. Broken Arrow's growing community can count on us for professional and courteous service.",
+        "localContext": "Broken Arrow is one of Tulsa's fastest-growing suburbs, with a strong sense of community and excellent schools.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Bixby",
+          "Coweta"
+        ]
+      },
+      {
+        "city": "Jenks",
+        "slug": "jenks-ok",
+        "state": "OK",
+        "content": "Apex Towing is the trusted towing service provider in Jenks, offering reliable assistance for all your towing and roadside needs. Whether you're near the Oklahoma Aquarium or shopping at the RiverWalk Crossing, our team can quickly reach you. We specialize in light-duty towing, motorcycle recovery, and emergency lockout services. Jenks residents and businesses rely on us for prompt and professional help.",
+        "localContext": "Jenks is a charming riverside town known for its excellent schools and family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Glenpool",
+          "Bixby"
+        ]
+      },
+      {
+        "city": "Sand Springs",
+        "slug": "sand-springs-ok",
+        "state": "OK",
+        "content": "Apex Towing provides top-notch towing services in Sand Springs, helping drivers in need with efficiency and care. Our team is familiar with the area's roads, including Highway 51 and the Keystone Expressway, ensuring quick response times. Whether you need a tow to a local repair shop or assistance after an accident, we're here to help. Sand Springs can depend on us for 24/7 roadside assistance.",
+        "localContext": "Sand Springs offers a mix of small-town charm and easy access to Tulsa's amenities.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Sapulpa",
+          "Mannford"
+        ]
+      },
+      {
+        "city": "Bixby",
+        "slug": "bixby-ok",
+        "state": "OK",
+        "content": "Apex Towing is proud to serve the Bixby community with reliable towing and roadside assistance. Whether you're on Memorial Drive or near the Arkansas River, our team is ready to assist with jump-starts, tire changes, and more. We also offer heavy-duty towing for larger vehicles and equipment. Bixby residents trust us for fast, friendly, and professional service.",
+        "localContext": "Bixby is a thriving suburb known for its excellent schools and community events.",
+        "nearbyAreas": [
+          "Broken Arrow",
+          "Jenks",
+          "Glenpool"
+        ]
+      },
+      {
+        "city": "Owasso",
+        "slug": "owasso-ok",
+        "state": "OK",
+        "content": "Apex Towing provides dependable towing services in Owasso, ensuring drivers receive prompt assistance when they need it most. Our team is familiar with the area's busy roads, including Highway 169 and 86th Street North. From minor breakdowns to major accidents, we're equipped to handle all types of towing needs. Owasso residents can count on us for reliable and courteous service.",
+        "localContext": "Owasso is a rapidly growing community with a strong emphasis on family and quality living.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Collinsville",
+          "Skiatook"
+        ]
+      },
+      {
+        "city": "Sapulpa",
+        "slug": "sapulpa-ok",
+        "state": "OK",
+        "content": "Apex Towing offers professional towing services in Sapulpa, helping drivers navigate unexpected vehicle issues with ease. Whether you're on Route 66 or near the Turner Turnpike, our team is ready to assist. We provide everything from light-duty towing to emergency roadside services. Sapulpa residents and visitors can rely on us for fast and efficient help.",
+        "localContext": "Sapulpa is a historic town with a rich Route 66 heritage and a close-knit community.",
+        "nearbyAreas": [
+          "Tulsa",
+          "Sand Springs",
+          "Kellyville"
+        ]
+      },
+      {
+        "city": "Glenpool",
+        "slug": "glenpool-ok",
+        "state": "OK",
+        "content": "Apex Towing is committed to serving the Glenpool area with top-quality towing and roadside assistance. Our team understands the local roads, including Highway 75 and 121st Street, ensuring quick response times. Whether you need a tow to a nearby repair shop or help with a dead battery, we're here for you. Glenpool drivers trust us for dependable and professional service.",
+        "localContext": "Glenpool is a small city with a strong sense of community and easy access to Tulsa.",
+        "nearbyAreas": [
+          "Bixby",
+          "Jenks",
+          "Kiefer"
+        ]
+      },
+      {
+        "city": "Collinsville",
+        "slug": "collinsville-ok",
+        "state": "OK",
+        "content": "Apex Towing provides reliable towing services in Collinsville, ensuring residents and travelers receive the assistance they need. Our team is familiar with the area's highways, including Highway 20 and 169, making us a trusted choice for local towing. From minor breakdowns to accident recovery, we're equipped to handle it all. Collinsville can count on us for 24/7 support.",
+        "localContext": "Collinsville is a growing town with a historic downtown and friendly community vibe.",
+        "nearbyAreas": [
+          "Owasso",
+          "Tulsa",
+          "Skiatook"
+        ]
+      },
+      {
+        "city": "Coweta",
+        "slug": "coweta-ok",
+        "state": "OK",
+        "content": "Apex Towing is proud to serve the Coweta area with professional and efficient towing services. Whether you're on Highway 51 or near the Wagoner County line, our team is ready to assist. We offer light-duty towing, emergency roadside help, and long-distance transport. Coweta residents and businesses trust us for prompt and courteous service.",
+        "localContext": "Coweta is a welcoming community with a small-town feel and strong local pride.",
+        "nearbyAreas": [
+          "Broken Arrow",
+          "Tulsa",
+          "Wagoner"
+        ]
+      },
+      {
+        "city": "Skiatook",
+        "slug": "skiatook-ok",
+        "state": "OK",
+        "content": "Apex Towing provides dependable towing services in Skiatook, helping drivers with all their roadside needs. Our team knows the local roads well, including Highway 11 and 20, ensuring quick and efficient service. Whether you need a tow to a repair shop or help with a lockout, we're here for you. Skiatook residents can rely on us for professional and friendly assistance.",
+        "localContext": "Skiatook is a scenic town near Skiatook Lake, offering outdoor recreation and a relaxed lifestyle.",
+        "nearbyAreas": [
+          "Owasso",
+          "Collinsville",
+          "Sperry"
+        ]
+      },
+      {
+        "city": "Mannford",
+        "slug": "mannford-ok",
+        "state": "OK",
+        "content": "Apex Towing offers reliable towing services in Mannford, ensuring drivers receive prompt assistance when they need it most. Our team is familiar with the area's roads, including Highway 51 and near Keystone Lake, making us a trusted choice for local towing. From minor breakdowns to accident recovery, we're equipped to handle it all. Mannford residents can count on us for 24/7 support.",
+        "localContext": "Mannford is a lakeside community known for its outdoor activities and friendly atmosphere.",
+        "nearbyAreas": [
+          "Sand Springs",
+          "Sapulpa",
+          "Kellyville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "emergency-towing": "/images/service-emergency-towing.webp",
+      "roadside-assistance": "/images/service-roadside-assistance.webp",
+      "heavy-duty-towing": "/images/service-heavy-duty-towing.webp",
+      "motorcycle-towing": "/images/service-motorcycle-towing.webp",
+      "private-property-towing": "/images/service-private-property-towing.webp"
+    },
+    "servicesResponsive": {
+      "emergency-towing": {
+        "src": "/images/service-emergency-towing.webp",
+        "srcset": "/images/service-emergency-towing-400w.webp 400w, /images/service-emergency-towing-800w.webp 800w, /images/service-emergency-towing-1200w.webp 1200w, /images/service-emergency-towing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roadside-assistance": {
+        "src": "/images/service-roadside-assistance.webp",
+        "srcset": "/images/service-roadside-assistance-400w.webp 400w, /images/service-roadside-assistance-800w.webp 800w, /images/service-roadside-assistance-1200w.webp 1200w, /images/service-roadside-assistance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "heavy-duty-towing": {
+        "src": "/images/service-heavy-duty-towing.webp",
+        "srcset": "/images/service-heavy-duty-towing-400w.webp 400w, /images/service-heavy-duty-towing-800w.webp 800w, /images/service-heavy-duty-towing-1200w.webp 1200w, /images/service-heavy-duty-towing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "motorcycle-towing": {
+        "src": "/images/service-motorcycle-towing.webp",
+        "srcset": "/images/service-motorcycle-towing-400w.webp 400w, /images/service-motorcycle-towing-800w.webp 800w, /images/service-motorcycle-towing-1200w.webp 1200w, /images/service-motorcycle-towing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "private-property-towing": {
+        "src": "/images/service-private-property-towing.webp",
+        "srcset": "/images/service-private-property-towing-400w.webp 400w, /images/service-private-property-towing-800w.webp 800w, /images/service-private-property-towing-1200w.webp 1200w, /images/service-private-property-towing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
